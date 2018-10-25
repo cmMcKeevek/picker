@@ -4,9 +4,9 @@
 <br/>
 <br/>
 
-[![Build Status](https://travis-ci.org/YOUR_GIT_HANDLE/picker.svg?branch=master)](https://travis-ci.org/YOUR_GIT_HANDLE/picker)
-[![Go Report Card](https://goreportcard.com/badge/github.com/YOUR_GIT_HANDLE/picker)](https://goreportcard.com/report/github.com/YOUR_GIT_HANDLE/picker)
-[![GoDoc](https://godoc.org/github.com/YOUR_GIT_HANDLE/picker?status.svg)](http://godoc.org/github.com/YOUR_GIT_HANDLE/picker)
+[![Build Status](https://travis-ci.org/cmmckeevek/picker.svg?branch=master)](https://travis-ci.org/cmmckeevek/picker)
+[![Go Report Card](https://goreportcard.com/badge/github.com/cmmckeevek/picker)](https://goreportcard.com/report/github.com/cmmckeevek/picker)
+[![GoDoc](https://godoc.org/github.com/cmmckeevek/picker?status.svg)](http://godoc.org/github.com/cmmckeevek/picker)
 
 # Package Lab
 
@@ -19,7 +19,7 @@
 * Copy gopherland/labs/packaging/picker to your $HOME/gopherland/picker
 * Create a new module file using the following command:
   ```shell
-  go mod init github.com/YOUR_GIT_USER_HANDLE/picker
+  go mod init github.com/cmmckeevek/picker
   ```
 * Update the test import path to the picker to reflect your own git user handle
 * Run the test command to make sure the tests are still passing and coverage is good!
@@ -30,7 +30,7 @@
   git init
   git add .
   git commit -m 'Init drop'
-  git remote add origin git@github.com:YOUR_GIT_USER_HANDLE/picker.git
+  git remote add origin git@github.com:cmmckeevek/picker.git
   git push --set-upstream origin master
   ```
 * Using semantic versioning tag your release
@@ -48,8 +48,8 @@
   ```
 * Checkout your docs and score card!
   ```shell
-  open https://godoc.org/github.com/YOUR_GIT_USER_HANDLE/picker
-  open https://goreportcard.com/report/github.com/YOUR_GIT_USER_HANDLE/picker
+  open https://godoc.org/github.com/cmmckeevek/picker
+  open https://goreportcard.com/report/github.com/cmmckeevek/picker
   ```
 * Update the README.md badge section with your own github handle
 * Congratulation!! You've just built and published your very own go package!
